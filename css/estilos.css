@@ -1,0 +1,571 @@
+/*pagina index*/
+/*comienzo de header index*/
+
+body{
+    
+    background: #e1eec3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #f05053, #e1eec3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #f05053, #e1eec3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+
+
+.header {
+    background-color: hwb(24 81% 17% / 0.616);
+    color: rgb(250, 250, 250);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.lista {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    padding-right: 50px;
+    
+    
+}
+
+.lista__item {
+    margin-left: 30px;
+    
+    
+}
+
+/*final de header index*/
+
+
+
+
+/*comienzo de main index*/
+
+.inicio {
+    display: flex;
+    flex-direction: row;
+    padding: 0 1rem;
+    margin-top: 200px;
+}
+
+.inicio__izquierda {
+    width: 50%;
+}
+
+.inicio__derecha {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inicio__titulo {
+    color: rgb(167, 88, 88);
+    font-size: 65px;
+    font-family: 'Paytone One', sans-serif;
+    text-transform: uppercase;
+}
+
+.inicio__parrafo {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 30px;
+    color: rgb(43, 41, 41);
+
+}
+
+.inicio__imagen {
+
+}
+
+main {
+    min-height: 100vh;
+}
+
+/*final de main index*/
+
+
+
+
+/*comienzo de footer index*/
+
+.footer {
+    
+    
+}
+
+/*comienzo de footer index*/
+
+
+
+
+/*inicio pagina carta*/
+
+.separacion {
+    margin-top: 200px;
+    min-height: 250vh;
+}
+
+.carta-titulo {
+    font-size: 60px;
+    color: rgb(189, 62, 62);
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;
+
+}
+
+.grid-carta {
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    border: 1px solid rgb(39, 38, 38);
+    box-shadow: 2px 2px 3px 3px rgb(119, 121, 119);
+    padding: 1rem;
+    height: 2000px;
+    width: 1000px;
+    margin-left: 400px;
+    display: grid;
+    border-radius: 30px;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    justify-items: center;
+    align-items: center;
+
+}
+
+.grid-carta__izq {
+    width: 50%;
+}
+
+
+.grid-carta__der {
+    width: 50%;
+}
+
+.sub-carta {
+    font-size: 30px;
+    color: rgb(189, 62, 62);
+    font-family: 'Paytone One', sans-serif;
+}
+
+.info-ramen {
+    font-size: 18px;
+    color: rgb(27, 27, 27);
+    font-family: 'Paytone One', sans-serif;
+
+}
+
+
+
+.bordes {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* final pagina carta*/
+
+
+
+/* inico  pagina empresa*/
+
+.gridempresa {
+
+    border: 0px solid rgb(39, 38, 38);
+    height: 600px;
+    width: 600px;
+    display: grid;
+    margin-top: 100px;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: stretch
+}
+
+.gridempresa__titulo {
+    font-size: 60px;
+    color: rgb(189, 62, 62);
+    text-align: start;
+    font-family: 'Paytone One', sans-serif;
+
+}
+
+.gridempresa__img{
+    width: auto;
+    height: auto;
+}
+
+.gridempresa__parrafo {
+    font-size:20px;
+    color: rgb(29, 28, 28);
+    text-align: start;
+    font-family: 'Paytone One', sans-serif;
+
+}
+
+/* final pagina empresa*/
+
+/* inicio pagina faq*/
+
+.gridfaq {
+    border: 0px solid rgb(39, 38, 38);
+    height: 800px;
+    width: 600px;
+    display: grid;
+    margin-top: 100px;
+    
+      
+}
+
+.gridfaq__titulo {
+    font-size: 50px;
+    color: rgb(189, 62, 62);
+    text-align: start;
+    font-family: 'Paytone One', sans-serif;
+    margin-left: 15%;
+
+}
+
+.gridfaq__imagen {
+    padding-left: 25%
+    
+    
+}
+
+.gridfaq__preguntas {
+    font-size: 20px;
+    color: rgb(24, 23, 23);
+    font-family: 'Paytone One', sans-serif;
+    padding-left: 15%;
+
+
+
+}
+
+/* final pagina faq*/
+
+.gridcontacto {
+    display: grid;
+    width: 100%;
+    justify-items: center;
+    margin-top: 100px;
+
+}
+
+.gridcontacto__titulo {
+
+    font-size: 20px;
+    color: rgb(24, 23, 23);
+    font-family: 'Paytone One', sans-serif;
+
+}
+
+.gridcontacto__relleno{
+
+    font-size: 15px;
+    color: rgb(156, 74, 74);
+    font-family: 'Paytone One', sans-serif;
+
+}
+
+.gridcontacto__hijo {
+    margin-left: 40%;
+}
+
+
+/*medias querys index*/
+
+/*tablet*/
+
+@media screen and (max-width:1023px) {
+
+    /*inicio index*/
+
+    .inicio__titulo {
+        font-size: 35px;  
+    }
+
+    .inicio__parrafo {
+        font-family: 'Paytone One', sans-serif;
+        font-size: 30px;
+        color: rgb(27, 21, 21);  
+     
+    }
+
+    main {
+        min-height: 130vh;
+    }
+    /*final index*/
+
+
+    /*inicio carta*/
+
+    .separacion-header {
+        margin-top: 80px;
+    }
+
+     .carta-titulo {
+        font-size: 25px; 
+        text-align: center; 
+    }
+
+    .grid-carta {
+
+        border: 1px solid rgb(39, 38, 38);
+        box-shadow: 1px 1px 2px 2px rgb(119, 121, 119);
+        height: 1300px;
+        width: 600px;
+        margin-left: 180px;
+        display: grid;
+        border-radius: 30px;
+    
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+        justify-items: center;
+        align-items: center
+    }
+
+    
+
+    .sub-carta {
+        font-size: 25px;
+        color: rgb(189, 62, 62);
+        font-family: 'Paytone One', sans-serif;
+    }
+
+    .info-ramen {
+
+
+        font-size: 10px;
+        color: rgb(27, 27, 27);
+        font-family: 'Paytone One', sans-serif;
+        
+    }
+
+    .bordes {
+        border-radius: 10px;
+        overflow: hidden;
+        width: 200px;
+        height: 200px;
+    }
+
+    .separacion{
+        margin-top: 100px;
+        min-height: 300px;
+    }
+
+
+    /*final carta*/
+
+    /*incio empresa*/
+
+    .gridempresa__img{
+        width: 600px;
+        height: 500px;
+        border-radius: 10px;
+    }
+
+    /*final empresa*/
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/*movil*/
+
+@media screen and (max-width:599px){
+
+
+    .inicio {
+        display: flex;
+        flex-direction: row;
+        padding: 0 1rem;
+        margin-top: 50px;
+    } 
+
+    .inicio__izquierda {
+        width: 100%;
+    }
+    
+    .inicio__derecha {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .inicio {
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+
+    .inicio__parrafo {
+        font-family: 'Paytone One', sans-serif;
+        font-size: 15px;
+        color: rgb(27, 21, 21);  
+        font-size: 25px; 
+    }
+
+     /*inicio carta*/
+
+     .separacion{
+        margin-top: 100px;
+        min-height: 300px;
+    }
+
+     .carta-titulo {
+        font-size: 25px; 
+        text-align: center; 
+    }
+
+    .grid-carta {
+
+        border: 1px solid rgb(39, 38, 38);
+        box-shadow: 1px 1px 2px 2px rgb(119, 121, 119);
+        height: 1200px;
+        width: 500px;
+        margin-left: 25px;
+        display: grid;
+        border-radius: 30px;
+    
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+        justify-items: center;
+        align-items: center
+    }
+
+    
+
+    .sub-carta {
+        font-size: 15px;
+        color: rgb(189, 62, 62);
+        font-family: 'Paytone One', sans-serif;
+    }
+
+    .info-ramen {
+
+
+        font-size: 8px;
+        color: rgb(27, 27, 27);
+        font-family: 'Paytone One', sans-serif;
+        
+    }
+
+    .bordes {
+        border-radius: 10px;
+        overflow: hidden;
+        width: 200px;
+        height: 200px;
+    }
+
+
+    /*final carta*/
+
+    /*inicio empresa*/
+
+
+    /*inicio empresa*/
+    
+    .gridempresa {
+        border: 1px solid rgba(145, 114, 114, 0.575);
+        height: 800px;
+        width: 450px;
+        display: grid;
+        margin-left: 70px;
+        box-shadow: 1px 1px 1px 1px rgba(29, 28, 28, 0.514);
+    
+        
+    }
+
+    .gridempresa__titulo {
+        font-size: 50px;
+        color: rgb(189, 62, 62);
+        font-family: 'Paytone One', sans-serif;
+        margin-left: 70px;
+
+    
+    }
+    
+    .gridempresa__parrafo {
+        font-size:15px;
+        color: rgb(29, 28, 28);
+        font-family: 'Paytone One', sans-serif;
+        margin-left: 15%;
+        margin-right: 15%;
+        
+        
+        
+    
+    }
+
+    .gridempresa__img{
+        width: 400px;
+        height: 300px;
+        margin-left: 6%;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    /*final empresa*/
+
+    /*inicio faq*/
+
+    .gridfaq__preguntas {
+
+        font-size: 15px;
+        color: rgb(24, 23, 23);
+        font-family: 'Paytone One', sans-serif;
+        padding-left: 15%;
+    
+    
+    
+    }
+
+    /*final faq*/
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+    
+    
+    
+
+
+
+    
+    
+
