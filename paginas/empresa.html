@@ -10,15 +10,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    
 
 </head>
 
 <body>
     <header class="header">
+        <a href="../index.html">
+        <img class= "icono-header" src="../Imagenes/png ramen heaader.png" alt="icono" width="45px" height="45px"></a>
+        
         <nav>
+            
             <ul class="lista">
                 <li class="lista__item">
                     <a href="../index.html">inicio</a>
@@ -26,7 +31,7 @@
                 <li class="lista__item">
                     <a href="../paginas/carta.html">carta</a>
                 <li class="lista__item">
-                    <a href="empresa.html">empresa</a>
+                    <a href="../paginas/empresa.html">empresa</a>
                 </li>
                 <li class="lista__item">
                     <a href="../paginas/faq.htm">faq</a>
@@ -36,16 +41,27 @@
                 </li>
             </ul>
         </nav>
+    
+        
+    
+    
     </header>
 
     <main>
         <section class="gridempresa">
 
-            <div><h1 class="gridempresa__titulo animate__animated animate__headShake">SOBRE NOSOTROS</h1></div>
-            <div><p class="gridempresa__parrafo" >SUBAYAI RAMEN es uno de los unicos locales productores de ramen en Argentina disponible al dia de hoy.
-            Trabajamos de manera online para que puedas disfrutar de unos excelentes NODLES que te llegan ala puerta de tu domicilio! 
-            ¡QUE ESPERAS PARA HACER TU PEDIDO! <a href="../paginas/contacto.html">AQUI</a></p></div>
-            <div><img class="gridempresa__img" src="../Imagenes/EMPRESA.png" alt="empresa"></a></div>
+            <div>
+                <h1 class="gridempresa__titulo animate__animated animate__headShake">SOBRE NOSOTROS</h1>
+            </div>
+            <div>
+                <p class="gridempresa__parrafo">SUBAYAI RAMEN es uno de los unicos locales productores de ramen en
+                    Argentina disponible al dia de hoy.
+                    Trabajamos de manera online para que puedas disfrutar de unos excelentes NODLES que te llegan ala
+                    puerta de tu domicilio!
+                    ¡QUE ESPERAS PARA HACER TU PEDIDO! <a href="../paginas/contacto.html">AQUI</a></p>
+            </div>
+            <div><img src="../Imagenes/EMPRESA.png" class="img-fluid" alt="img" width="400px" height="400px">
+            
 
         </section>
     </main>
@@ -54,16 +70,21 @@
 
     <footer class="footer">
 
-        <section>
-            <nav>
-                <a href="./index.html">
-                    <img src="../Imagenes/icono fin pagina.png" alt="icono fin pagina" width="100" height="100">
-                </a>
-
-                <nav>
-        </section>
+        <nav>
+            <ul class="pagination justify-content-center">
+              <li class="page-item"><a class="page-link" href="../index.html">1</a></li>
+              <li class="page-item"><a class="page-link" href="../paginas/carta.html">2</a></li>
+              <li class="page-item"><a class="page-link" href="../paginas/empresa.html">3</a></li>
+              <li class="page-item"><a class="page-link" href="../paginas/faq.htm">4</a></li>
+              <li class="page-item"><a class="page-link" href="../paginas/contacto.html">5</a></li>
+            </ul>
+          </nav>
 
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
 </body>
 
