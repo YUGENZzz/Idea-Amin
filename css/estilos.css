@@ -71,7 +71,7 @@ body{
 }
 
 .inicio__izquierda {
-    width: 50%;
+    width: 45%;
     margin-left: 80px;
 }
 
@@ -95,7 +95,7 @@ body{
 
 .inicio__parrafo {
     font-family: 'Paytone One', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(233, 213, 213);
     margin-top: 3rem;
     padding-right: 50px;
@@ -113,26 +113,10 @@ body{
 }
 
 .separacion-footer {
-    min-height: 80vh;
+    min-height: 70vh;
 }
 
 /*final de main index*/
-
-
-
-
-/*comienzo de footer index*/
-
-.footer {
-
-
-    
-    
-}
-
-/*comienzo de footer index*/
-
-
 
 
 /*inicio pagina carta*/
@@ -207,36 +191,34 @@ body{
 .gridempresa {
 
     border: 0px solid rgb(39, 38, 38);
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 400px;
     display: grid;
     margin-top: 100px;
+    margin-left: 36%;
 
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
     justify-items: stretch
+    
+    
 }
 
-.gridempresa__titulo {
-    font-size: 60px;
-    color: rgb(167, 88, 88);
-    text-align: start;
-    font-family: 'Paytone One', sans-serif;
+.blockquote {
+    color: rgb(233, 213, 213);
+}
+
+.img-fluid {
+    margin-top: 3rem;
+}
+
+.footer-empresa {
+   margin-top: 15rem;
+   margin-right: 8%;
 
 }
 
-.gridempresa__img{
-    width: auto;
-    height: auto;
-}
 
-.gridempresa__parrafo {
-    font-size:20px;
-    color: rgb(29, 28, 28);
-    text-align: start;
-    font-family: 'Paytone One', sans-serif;
-
-}
 
 /* final pagina empresa*/
 
@@ -245,36 +227,30 @@ body{
 .gridfaq {
     border: 0px solid rgb(39, 38, 38);
     height: 800px;
-    width: 600px;
+    width: 400px;
     display: grid;
     margin-top: 100px;
+    margin-left: 38%;
     
       
 }
 
 .gridfaq__titulo {
     font-size: 50px;
-    color: rgb(167, 88, 88);
+    color: rgb(233, 213, 213);
     text-align: start;
     font-family: 'Paytone One', sans-serif;
-    margin-left: 15%;
+    text-align: start;
 
-}
+} 
 
 .gridfaq__imagen {
-    padding-left: 25%
-    
-    
+    margin-top: 2rem;
 }
 
-.gridfaq__preguntas {
-    font-size: 20px;
-    color: rgb(24, 23, 23);
-    font-family: 'Paytone One', sans-serif;
-    padding-left: 15%;
-
-
-
+.footer-faq {
+    margin-top: 5rem;
+    margin-right: 5%;
 }
 
 /* final pagina faq*/
@@ -290,7 +266,7 @@ body{
 .gridcontacto__titulo {
 
     font-size: 20px;
-    color: rgb(24, 23, 23);
+    color: rgb(233, 213, 213);
     font-family: 'Paytone One', sans-serif;
 
 }
@@ -298,7 +274,7 @@ body{
 .gridcontacto__relleno{
 
     font-size: 15px;
-    color: rgb(167, 88, 88);
+    color: rgb(233, 213, 213);
     font-family: 'Paytone One', sans-serif;
 
 }
