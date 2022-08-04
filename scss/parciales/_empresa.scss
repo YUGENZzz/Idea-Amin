@@ -1,0 +1,29 @@
+.gridempresa {
+
+    border: 0px solid rgb(39, 38, 38);
+    height: 500px;
+    width: 400px;
+    display: grid;
+    margin-top: 100px;
+    margin-left: 36%;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr ;
+    justify-items: stretch
+    
+    
+}
+
+.blockquote {
+    color: rgb(233, 213, 213);
+}
+
+.img-fluid {
+    margin-top: 3rem;
+}
+
+.footer-empresa {
+   margin-top: 15rem;
+   margin-right: 8%;
+
+}

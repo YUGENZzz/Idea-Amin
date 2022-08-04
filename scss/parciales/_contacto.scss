@@ -1,0 +1,27 @@
+.gridcontacto {
+    display: grid;
+    width: 100%;
+    justify-items: center;
+    margin-top: 100px;
+
+}
+
+.gridcontacto__titulo {
+
+    font-size: 20px;
+    color: rgb(233, 213, 213);
+    font-family: 'Paytone One', sans-serif;
+
+}
+
+.gridcontacto__relleno{
+
+    font-size: 15px;
+    color: rgb(233, 213, 213);
+    font-family: 'Paytone One', sans-serif;
+
+}
+
+.gridcontacto__hijo {
+    margin-left: 40%;
+}

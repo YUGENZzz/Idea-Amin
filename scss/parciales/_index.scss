@@ -1,0 +1,52 @@
+.inicio {
+    display: flex;
+    flex-direction: row;
+    padding: 0 1rem;
+    margin-top: 200px;
+}
+
+.inicio__izquierda {
+    width: 45%;
+    margin-left: 80px;
+}
+
+.inicio__derecha {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+    
+}
+
+.inicio__titulo {
+    color: rgb(233, 213, 213);
+    font-size: 65px;
+    font-family: 'Paytone One', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+.inicio__parrafo {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 20px;
+    color: rgb(233, 213, 213);
+    margin-top: 3rem;
+    padding-right: 50px;
+
+}
+
+.inicio__imagen {
+
+
+}
+
+.pagination {
+    margin-bottom: 100px;
+    
+}
+
+.separacion-footer {
+    min-height: 70vh;
+}
