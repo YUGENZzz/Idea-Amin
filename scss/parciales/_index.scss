@@ -1,13 +1,22 @@
+@mixin propiedades($whith, $margin-left) {
+    width: $whith;
+    margin-left: $margin-left;
+ 
+}
+
 .inicio {
     display: flex;
     flex-direction: row;
     padding: 0 1rem;
     margin-top: 200px;
+    
+
+   
 }
 
 .inicio__izquierda {
-    width: 45%;
-    margin-left: 80px;
+    @include propiedades(45%,80px)
+    
 }
 
 .inicio__derecha {
@@ -42,11 +51,12 @@
 
 }
 
+
 .pagination {
     margin-bottom: 100px;
     
 }
 
 .separacion-footer {
-    min-height: 70vh;
+    min-height: 80vh;
 }

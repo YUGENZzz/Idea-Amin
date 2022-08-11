@@ -1,6 +1,16 @@
+/*mixing para clase grid.carta*/
+@mixin sizes($width, $height, $padding, $border-radius) {
+    height: $height;
+    width: $width;
+    padding: $padding;
+    border-radius: $border-radius;
+ }
+ 
+
+
 .separacion {
     margin-top: 100px;
-    min-height: 150vh;
+    min-height: 180vh;
 }
 
 .carta-titulo {
@@ -14,14 +24,13 @@
 }
 
 .grid-carta {
+
+    @include sizes(1000px,1200px,1rem,30px)
     
     border: 0px solid rgb(39, 38, 38);
-    padding: 1rem;
-    height: 1200px;
-    width: 1000px;
     margin-left: 450px;
     display: grid;
-    border-radius: 30px;
+    
     
 
     grid-template-columns: 1fr 1fr;

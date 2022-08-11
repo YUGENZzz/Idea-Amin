@@ -88,12 +88,13 @@ body {
   margin-bottom: 100px; }
 
 .separacion-footer {
-  min-height: 70vh; }
+  min-height: 80vh; }
 
 /*modificaciones index*/
+/*mixing para clase grid.carta*/
 .separacion {
   margin-top: 100px;
-  min-height: 150vh; }
+  min-height: 180vh; }
 
 .carta-titulo {
   font-size: 50px;
@@ -103,13 +104,13 @@ body {
   margin-left: 50px; }
 
 .grid-carta {
-  border: 0px solid #272626;
-  padding: 1rem;
   height: 1200px;
   width: 1000px;
+  padding: 1rem;
+  border-radius: 30px;
+  border: 0px solid #272626;
   margin-left: 450px;
   display: grid;
-  border-radius: 30px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   justify-items: center;
@@ -150,11 +151,7 @@ body {
 .blockquote {
   color: #e9d5d5; }
 
-.img-fluid {
-  margin-top: 3rem; }
-
 .footer-empresa {
-  margin-top: 15rem;
   margin-right: 8%; }
 
 /*modificaciones empresa*/
@@ -174,7 +171,9 @@ body {
   text-align: start; }
 
 .gridfaq__imagen {
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  width: 200px;
+  height: 200px; }
 
 .footer-faq {
   margin-top: 5rem;
@@ -198,7 +197,13 @@ body {
   font-family: 'Paytone One', sans-serif; }
 
 .gridcontacto__hijo {
-  margin-left: 40%; }
+  margin-left: 45%;
+  width: 40px;
+  height: 40px; }
+
+.gridcontacto__imagenmoto {
+  width: 500px;
+  height: 500px; }
 
 /*modificaciones contacto*/
 @media screen and (max-width: 1023px) {
@@ -325,11 +330,13 @@ body {
   .inicio__icono {
     width: 20px;
     height: 20px; }
+  .separacion-footer {
+    min-height: 90vh; }
   /*final de main index*/
   /*inicio pagina carta*/
   .separacion {
     margin-top: 100px;
-    min-height: 150vh; }
+    min-height: 300vh; }
   .carta-titulo {
     font-size: 15px;
     color: #e9d5d5;
@@ -369,36 +376,49 @@ body {
   /*final carta*/
   /*inicio empresa*/
   .gridempresa {
-    border: 1px solid rgba(145, 114, 114, 0.575);
-    height: 800px;
-    width: 450px;
+    border: 1px solid rgba(145, 114, 114, 0);
+    height: 500px;
+    width: 200px;
     display: grid;
-    margin-left: 70px;
+    margin-left: 60px;
     box-shadow: 1px 1px 1px 1px rgba(29, 28, 28, 0.514); }
-  .gridempresa__titulo {
-    font-size: 30px;
-    color: #bd3e3e;
-    font-family: 'Paytone One', sans-serif;
-    margin-left: 70px; }
-  .gridempresa__parrafo {
-    font-size: 15px;
-    color: #1d1c1c;
-    font-family: 'Paytone One', sans-serif;
-    margin-left: 15%;
-    margin-right: 15%; }
-  .gridempresa__img {
-    width: 400px;
-    height: 300px;
-    margin-left: 6%;
-    border-radius: 10px;
-    margin-top: 10px; }
   /*final empresa*/
   /*inicio faq*/
+  .gridfaq {
+    margin-left: 20%;
+    width: 100px; }
+  .gridfaq__titulo {
+    font-size: 15px; }
+  .gridfaq__imagen {
+    width: 200px;
+    height: 200px; }
   .gridfaq__preguntas {
-    font-size: 15px;
+    font-size: 10px;
     color: #181717;
     font-family: 'Paytone One', sans-serif;
-    padding-left: 15%; }
-  /*final faq*/ }
+    padding-left: 5px; }
+  .alert {
+    width: 200px;
+    height: 100px;
+    font-size: 15px; }
+  /*final faq*/
+  .gridcontacto__titulo {
+    font-size: 10px; }
+  .gridcontacto__relleno {
+    font-size: 10px;
+    margin-top: 1rem; }
+  .gridcontacto__hijo {
+    margin-left: 10%; }
+  .gridcontacto__imagenmoto {
+    width: 200px;
+    height: 200px; }
+  .gridcontacto__hijo {
+    margin-left: 45%;
+    width: 20px;
+    height: 20px; } }
 
 /*modificaciones contacto*/
+.icondec {
+  text-decoration: none; }
+
+/*modificaciones footer*/
