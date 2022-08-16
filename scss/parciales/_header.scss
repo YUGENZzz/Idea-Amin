@@ -9,16 +9,12 @@
     font-size: 20px;
     text-transform: uppercase;
     z-index: 1000;
-    text-decoration:none;
-    
-    
-
+    text-decoration: none;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
-    
+
 }
 
 .icono-header {
@@ -33,26 +29,16 @@
     padding-right: 50px;
     margin-bottom: 30px;
     margin-top: 1rem;
-    
-    
-
 }
 
-.lista {
-   
-     
-}
+.lista {}
 
 .lista__item {
-    
     margin-left: 1rem;
-    
-    
-    
 }
 
-.lista__color{
-    text-decoration:none;
+.lista__color {
+    text-decoration: none;
     color: rgb(233, 213, 213);
 }
 

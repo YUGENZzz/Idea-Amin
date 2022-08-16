@@ -1,7 +1,7 @@
 @mixin propiedades($whith, $margin-left) {
     width: $whith;
     margin-left: $margin-left;
- 
+
 }
 
 .inicio {
@@ -9,14 +9,13 @@
     flex-direction: row;
     padding: 0 1rem;
     margin-top: 200px;
-    
 
-   
+
+
 }
 
 .inicio__izquierda {
-    @include propiedades(45%,80px)
-    
+    @include propiedades(45%, 80px)
 }
 
 .inicio__derecha {
@@ -24,9 +23,9 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
-    
-    
+
+
+
 }
 
 .inicio__titulo {
@@ -34,7 +33,7 @@
     font-size: 65px;
     font-family: 'Paytone One', sans-serif;
     text-transform: uppercase;
-    
+
 }
 
 .inicio__parrafo {
@@ -46,15 +45,12 @@
 
 }
 
-.inicio__imagen {
-
-
-}
+.inicio__imagen {}
 
 
 .pagination {
     margin-bottom: 100px;
-    
+
 }
 
 .separacion-footer {

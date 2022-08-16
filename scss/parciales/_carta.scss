@@ -4,8 +4,8 @@
     width: $width;
     padding: $padding;
     border-radius: $border-radius;
- }
- 
+}
+
 
 
 .separacion {
@@ -19,19 +19,17 @@
     text-align: center;
     font-family: 'Paytone One', sans-serif;
     margin-left: 50px;
-    
+
 
 }
 
 .grid-carta {
 
-    @include sizes(1000px,1200px,1rem,30px)
-    
-    border: 0px solid rgb(39, 38, 38);
+    @include sizes(1000px, 1200px, 1rem, 30px) border: 0px solid rgb(39, 38, 38);
     margin-left: 450px;
     display: grid;
-    
-    
+
+
 
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -49,10 +47,13 @@
 
 
 .card-body {
-    background: #141E30;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: #141E30;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 

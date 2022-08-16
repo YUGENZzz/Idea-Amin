@@ -3,19 +3,20 @@
     /*inicio index*/
 
     .inicio__titulo {
-        font-size: 35px;  
+        font-size: 35px;
     }
 
     .inicio__parrafo {
         font-family: 'Paytone One', sans-serif;
         font-size: 30px;
-        color: rgb(27, 21, 21);  
-     
+        color: rgb(27, 21, 21);
+
     }
 
     main {
         min-height: 130vh;
     }
+
     /*final index*/
 
 
@@ -25,9 +26,9 @@
         margin-top: 80px;
     }
 
-     .carta-titulo {
-        font-size: 25px; 
-        text-align: center; 
+    .carta-titulo {
+        font-size: 25px;
+        text-align: center;
     }
 
     .grid-carta {
@@ -39,15 +40,15 @@
         margin-left: 180px;
         display: grid;
         border-radius: 30px;
-    
+
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-    
+
         justify-items: center;
         align-items: center
     }
 
-    
+
 
     .sub-carta {
         font-size: 25px;
@@ -61,7 +62,7 @@
         font-size: 10px;
         color: rgb(27, 27, 27);
         font-family: 'Paytone One', sans-serif;
-        
+
     }
 
     .bordes {
@@ -71,7 +72,7 @@
         height: 200px;
     }
 
-    .separacion{
+    .separacion {
         margin-top: 100px;
         min-height: 300px;
     }
@@ -81,7 +82,7 @@
 
     /*incio empresa*/
 
-    .gridempresa__img{
+    .gridempresa__img {
         width: 600px;
         height: 500px;
         border-radius: 10px;
@@ -106,17 +107,17 @@
         font-size: 20px;
         text-transform: uppercase;
         z-index: 1000;
-        
-        
-    
-    
+
+
+
+
         display: flex;
         flex-direction: row;
         justify-content: end;
-        
+
     }
 
- 
+
 
 
     .header__boton {
@@ -124,7 +125,7 @@
         color: rgb(233, 213, 213);
         text-decoration: none;
         display: block;
-        
+
     }
 
     .lista {
@@ -132,33 +133,33 @@
     }
 
     .lista__nav {
-         flex-direction: column;
-        
-    
+        flex-direction: column;
+
+
     }
 
     .lista:target {
-        background-color:rgb(27, 27, 27);
+        background-color: rgb(27, 27, 27);
         display: block;
-        position: fixed ;
+        position: fixed;
         z-index: 10000000000;
-        top:0;
-        left:0;
-        width: 50%; 
+        top: 0;
+        left: 0;
+        width: 50%;
         height: 40vh;
-        
+
 
     }
 
     .icono-header {
         display: none;
-        
+
     }
 
     .lista__item {
         font-size: 10px;
         margin-top: 1rem;
-         
+
     }
 
     .lista__item--oculto {
@@ -167,48 +168,45 @@
 
 
 
-    .inicio  {
+    .inicio {
         display: flex;
         flex-direction: row;
         flex-direction: column;
         justify-content: center;
         margin-top: 100px;
-        
-    } 
+
+    }
 
     .inicio__titulo {
         color: rgb(233, 213, 213);
         font-size: 15px;
         font-family: 'Paytone One', sans-serif;
         text-transform: uppercase
-        
-        
-
     }
-       
-    
+
+
     .inicio__izquierda {
         width: 85%;
         margin-left: 50px;
     }
-    
+
     .inicio__derecha {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
-        
+
+
 
     }
 
     .inicio__parrafo {
         font-family: 'Paytone One', sans-serif;
         font-size: 10px;
-        color: rgb(233, 213, 213); 
+        color: rgb(233, 213, 213);
         padding-right: 45%;
-        
-        
-        
+
+
+
     }
 
     .inicio__imagen {
@@ -227,31 +225,31 @@
         min-height: 90vh;
     }
 
-    
-   
-    
+
+
+
     /*final de main index*/
-    
-    
+
+
     /*inicio pagina carta*/
-    
+
     .separacion {
         margin-top: 100px;
         min-height: 300vh;
     }
-    
+
     .carta-titulo {
         font-size: 15px;
         color: rgb(233, 213, 213);
         text-align: center;
         font-family: 'Paytone One', sans-serif;
         margin-right: 15%;
-        
-    
+
+
     }
-    
+
     .grid-carta {
-        
+
         border: none;
         padding: 1rem;
         height: 1800px;
@@ -259,15 +257,15 @@
         margin-left: 20px;
         display: grid;
         border-radius: 20px;
-        
-    
+
+
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-    
+
         justify-items: center;
         align-items: center;
-        
-    
+
+
     }
 
     .card {
@@ -277,31 +275,34 @@
     }
 
 
-    
+
     .card-body {
-        background: #141E30;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
-    
+        background: #141E30;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #243B55, #141E30);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #243B55, #141E30);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
     }
-    
+
     .card-title {
         font-size: 15px;
         font-family: 'Paytone One', sans-serif;
         color: rgb(233, 213, 213);
-    
+
     }
-    
+
     .card-text {
         font-size: 10px;
         color: rgb(233, 213, 213);
-    
+
     }
 
-    
-    
-    
+
+
+
     /*final carta*/
 
 
@@ -310,7 +311,7 @@
 
 
     /*inicio empresa*/
-    
+
     .gridempresa {
         border: 1px solid rgba(145, 114, 114, 0);
         height: 500px;
@@ -321,7 +322,7 @@
 
     }
 
-    
+
 
 
 
@@ -349,7 +350,7 @@
         color: rgb(24, 23, 23);
         font-family: 'Paytone One', sans-serif;
         padding-left: 5px;
-    
+
     }
 
     .alert {
@@ -362,7 +363,7 @@
     /*final faq*/
     .gridcontacto__titulo {
         font-size: 10px;
-    } 
+    }
 
     .gridcontacto__relleno {
         font-size: 10px;
@@ -385,7 +386,6 @@
     }
 
 
-    
+
 
 }
-
