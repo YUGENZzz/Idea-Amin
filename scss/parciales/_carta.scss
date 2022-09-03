@@ -1,7 +1,5 @@
 /*mixing para clase grid.carta*/
-@mixin sizes($width, $height, $padding, $border-radius) {
-    height: $height;
-    width: $width;
+@mixin sizes($padding, $border-radius) {
     padding: $padding;
     border-radius: $border-radius;
 }
@@ -26,13 +24,12 @@
 .grid-carta {
 
     @include sizes(1000px, 1200px, 1rem, 30px) border: 0px solid rgb(39, 38, 38);
-    margin-left: 450px;
     display: grid;
 
 
 
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 
     justify-items: center;
     align-items: center;
